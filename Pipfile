@@ -12,9 +12,11 @@ psycopg2 = "*"
 gunicorn = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.11"
 
 [scripts]
 dev="flask run"
+test="pytest"
